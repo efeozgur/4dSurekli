@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">Agi</node>
+    <node x="206.0" y="551.0">Hesap</node>
+    <node x="0.0" y="562.0">SGK_Kesintiler</node>
+    <node x="622.0" y="551.0">VergiKesintiler</node>
+    <node x="412.0" y="529.0">SosyalYardimlar</node>
+    <node x="309.0" y="361.0">Kisi</node>
+    <node x="0.0" y="692.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SGK_Kesintiler" target="Kisi">
+      <point x="0.0" y="-26.0" />
+      <point x="93.0" y="499.0" />
+      <point x="332.5" y="499.0" />
+      <point x="-70.5" y="59.0" />
+    </edge>
+    <edge source="VergiKesintiler" target="Kisi">
+      <point x="0.0" y="-37.0" />
+      <point x="703.0" y="499.0" />
+      <point x="473.5" y="499.0" />
+      <point x="70.5" y="59.0" />
+    </edge>
+    <edge source="SosyalYardimlar" target="Kisi">
+      <point x="0.0" y="-59.0" />
+      <point x="507.0" y="509.0" />
+      <point x="426.5" y="509.0" />
+      <point x="23.5" y="59.0" />
+    </edge>
+    <edge source="Hesap" target="Kisi">
+      <point x="0.0" y="-37.0" />
+      <point x="299.0" y="509.0" />
+      <point x="379.5" y="509.0" />
+      <point x="-23.5" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hıerarchıc Group" zoom="0.7340241796200345" x="447.0" y="452.5" />
+  <SelectedNodes>
+    <node>Agi</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
